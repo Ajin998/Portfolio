@@ -296,3 +296,46 @@ i {
         border-bottom: none;
     }
 }
+
+@media(max-width:600px) {
+    .content-in-section {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .content-in-section:nth-child(2n) {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .project-container {
+        height: 100vh;
+    }
+
+    .project-gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+
+    .project-item {
+        border: 2px solid red;
+        height: 80px;
+        width: 60vw;
+    }
+
+    .project-text {
+        margin-top: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .project-text p {
+        display: none;
+    }
+
+}
