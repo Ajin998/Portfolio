@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 html,
 body {
 
@@ -13,7 +22,7 @@ body {
 /* Top section  */
 .header {
     height: 100%;
-    background: url("../../blog/images/img5.jpg");
+    background: url("../images/img5.jpg");
     margin: 0;
     background-size: cover;
     background-position: center;
@@ -27,7 +36,17 @@ body {
     margin: 0;
     background: #1a1c20;
     justify-content: space-between;
-    box-shadow: black;
+    /* box-shadow: black; */
+}
+
+.navigation-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.container-logo {
+    width: 25%;
 }
 
 /* Logo */
