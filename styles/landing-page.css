@@ -99,6 +99,21 @@ body {
 }
 
 /* For content after header */
+.About {
+    text-align: center;
+    color: #1A1C20;
+    font-weight: 100;
+}
+
+.About_section_line {
+    border: 1px solid #EF4351;
+    width: 20%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+
 .content {
     position: relative;
     color: white;
@@ -205,6 +220,19 @@ body {
 }
 
 /* For project ka section */
+.project_section_header {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.project_section_line {
+    border: 1px solid #EF4351;
+    width: 20%;
+    border-radius: 50%;
+}
+
 .project-container {
     background: url("../images/img5.jpg");
     background-size: cover;
@@ -273,14 +301,17 @@ body {
 .project-item-6 {
     background: rgb(226, 181, 240);
 }
-.project-item-7{
+
+.project-item-7 {
     background: rgb(179, 228, 169);
 
 }
+
 .project-item-8 {
     background: rgb(72, 190, 185);
 
 }
+
 .project-item-9 {
     background: rgb(255, 253, 125);
 
@@ -320,9 +351,14 @@ i {
 
     .project-container {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
+    }
+
+    .project_section_header {
+        margin: 0;
     }
 
     .project-gallery {
@@ -334,12 +370,9 @@ i {
     }
 
     .project-item {
-
-        height: 100%;
-        width: 500px;
-        margin-top: 0;
+        width: 40vw;
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
